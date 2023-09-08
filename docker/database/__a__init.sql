@@ -1,0 +1,1 @@
+CREATE DATABASE `example` COLLATE 'utf8mb4_general_ci'
