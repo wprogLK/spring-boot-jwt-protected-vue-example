@@ -24,8 +24,6 @@ A basic fullstack example of how to protect a REST api with JWT based on MariaDB
 
 ## About the project
 
----
-
 Whenever I want to create quickly a new fullstack project with Java and Vue I stumbled upon the issue that I have to create it entirely from scratch. This project tries to solve this issue once for all by providing a base project ready to run out of the box. Among other things it includes:
 
 * preconfigured MariaDB
@@ -35,7 +33,7 @@ Whenever I want to create quickly a new fullstack project with Java and Vue I st
 
 You can use this project as a template, for inspiration or anything else.
 
-<p style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Getting started
 ### Prerequisites
@@ -58,8 +56,12 @@ The MariaDB is run as a Docker container.
 
 For running the full stack, it's recommended to use `docker-compose`.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Licence
 Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contact
 [![LinkedIn][linkedin-shield]][linkedin-url]
