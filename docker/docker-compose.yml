@@ -1,0 +1,10 @@
+version: "3.9"
+name: example
+services:
+  database:
+    container_name: "database"
+    build:
+      dockerfile: database.Dockerfile
+    restart: always
+    ports:
+      -  "3306:3306"

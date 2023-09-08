@@ -80,7 +80,22 @@ At the end you should have three files located in `./backend/src/main/ressources
 * ``privata.pem``
 * ``public.pem``
 
+### Database
 
+To start the database go to `/docker` and run
+```sh
+docker-compose up database
+```
+
+This will start the MariaDB database including creating the `example` database if it not already exists (see `/docker/database/__a__init.sql`)
+
+|              |                |
+|--------------|----------------|
+| **url**      | localhost:3306 |
+| **user**     | root           |
+| **password** | example        |
+
+To change port and initial user & password have a look at ``ENV`` in `docker/docker-compose.yml`
 
 ## Licence
 Distributed under the MIT License. See `LICENSE.txt` for more information.
