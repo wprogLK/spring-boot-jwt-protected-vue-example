@@ -56,7 +56,31 @@ The MariaDB is run as a Docker container.
 
 For running the full stack, it's recommended to use `docker-compose`.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Setup
+#### Create certificates for encryption
+In order to make JWT tokens secure there are some custom certificates in `./backend/src/main/ressources/cert`
+
+> :information_source: Windows user running the commands below in their ``gitbash`` terminal or an other shell.
+
+1. create rsa key pair
+```sh
+openssl genrsa -out keypair.pem 2048
+```
+2. extract public key
+```sh
+openssl rsa -in keypair.pem -pubout -out public.pem
+```
+3. create private key in PKCS#8 format
+```sh
+openssl pkcs8 -topk8 -inform PEM -outform PEM -nocrypt -in keypair.pem -out private.pem 
+```
+
+At the end you should have three files located in `./backend/src/main/ressources/cert`:
+* ``keypair.pem``
+* ``privata.pem``
+* ``public.pem``
+
+
 
 ## Licence
 Distributed under the MIT License. See `LICENSE.txt` for more information.
