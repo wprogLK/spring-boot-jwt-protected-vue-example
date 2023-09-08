@@ -1,10 +1,10 @@
-package ch.wprog.example.backend;
+package ch.wproglk.example.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BackendApplicationTests {
+class ExampleApplicationTests {
 
 	@Test
 	void contextLoads() {
