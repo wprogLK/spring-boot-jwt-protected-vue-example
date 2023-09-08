@@ -246,3 +246,7 @@ gradle-app.setting
 *.hprof
 
 # End of https://www.toptal.com/developers/gitignore/api/java,dotenv,gradle,intellij,jetbrains
+
+
+# Ignore any certificate
+/src/main/resources/certs/*.pem
