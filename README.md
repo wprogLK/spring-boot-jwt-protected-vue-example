@@ -88,14 +88,14 @@ docker-compose up database
 ```
 
 This will start the MariaDB database including creating the `example` database if it not already exists (see `/docker/database/__a__init.sql`)
+To change port and initial user & password have a look at ``ENV`` in `docker/docker-compose.yml`
 
 |              |                |
 |--------------|----------------|
 | **url**      | localhost:3306 |
-| **user**     | root           |
+| **database** | example        |
+| **user**     | example        |
 | **password** | example        |
-
-To change port and initial user & password have a look at ``ENV`` in `docker/docker-compose.yml`
 
 ## Licence
 Distributed under the MIT License. See `LICENSE.txt` for more information.
