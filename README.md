@@ -7,7 +7,7 @@
 <div style="text-align:center">
 
 # Spring-boot-jwt-protected-vue-example
-A basic fullstack example of how to protect a REST api with JWT based on MariaDB, SpringBoot and VueJS.
+A basic fullstack example of how to protect a REST api with JWT based on MariaDB, SpringBoot and VueJS. Note: This project is currently under development and not yet working. 
 
 ## Build with 
 [![MariaDB][MariaDB-shield]][MariaDB-url]
