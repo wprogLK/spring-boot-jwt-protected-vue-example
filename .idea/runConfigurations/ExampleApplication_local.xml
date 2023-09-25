@@ -3,10 +3,10 @@
     <option name="ACTIVE_PROFILES" value="local" />
     <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
     <module name="backend.main" />
-    <option name="SPRING_BOOT_MAIN_CLASS" value="ch.wproglk.example.backend.ExampleApplication" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="ch.wproglk.example.ExampleApplication" />
     <extension name="coverage">
       <pattern>
-        <option name="PATTERN" value="ch.wproglk.example.backend.*" />
+        <option name="PATTERN" value="ch.wproglk.example.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
