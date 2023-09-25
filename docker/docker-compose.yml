@@ -8,3 +8,15 @@ services:
     restart: always
     ports:
       -  "3306:3306"
+  backend:
+    environment:
+      - SPRING_PROFILES_ACTIVE = docker
+    build:
+      dockerfile: backend.Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ../backend/.:/home/app/
+      - ../backend/.gradle:/root/.gradle
+    depends_on:
+      - database
